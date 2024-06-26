@@ -1,7 +1,6 @@
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
-@use 'event';
 @use 'variables';
 
 * {
@@ -14,6 +13,7 @@
 }
 
 .container {
+    height: 800px;
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
